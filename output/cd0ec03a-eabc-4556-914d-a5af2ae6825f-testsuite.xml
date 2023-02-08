@@ -1,0 +1,211 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675791867923' stop='1675791894839'>
+    <name>Create User:</name>
+    <title>Create User:</title>
+    <test-cases>
+        <test-case start='1675791872663' status='failed' stop='1675791874038'>
+            <name>Login with success</name>
+            <title>Login with success</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>login is not a function</message>
+                <stack-trace>TypeError: login is not a function
+                    at Test.&lt;anonymous> (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\steps\create_user_test.js:9:11)
+                    at test.fn (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runnable.js:386:21)
+                    at Runnable.run (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runnable.js:330:7)
+                    at Runner.runTest (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:621:10)
+                    at D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:745:12
+                    at next (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:538:14)
+                    at D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:548:7
+                    at next (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:430:14)
+                    at cbHookRun (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675791874067' status='passed' stop='1675791894804'>
+            <name>Create New User</name>
+            <title>Create New User</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675791875620' status='passed' stop='1675791879850'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675791879851' status='passed' stop='1675791881961'>
+                    <name>home_page: accessLoginPage </name>
+                    <title>home_page: accessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675791879851' status='passed' stop='1675791881961'>
+                            <name>I click "Signup / Login"</name>
+                            <title>I click "Signup / Login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675791881962' status='passed' stop='1675791885148'>
+                    <name>login_page: submitCreateNewAccount "Olen", "Markus45@hotmail.com"</name>
+                    <title>login_page: submitCreateNewAccount "Olen", "Markus45@hotmail.com"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675791881962' status='passed' stop='1675791882017'>
+                            <name>I fill field "Name", "Olen"</name>
+                            <title>I fill field "Name", "Olen"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791882018' status='passed' stop='1675791882090'>
+                            <name>I fill field "#form > div > div > div:nth-child(3) > div > form > input[type=email]:nth-child(3)", "Markus45@hotmail.com"</name>
+                            <title>I fill field "#form > div > div > div:nth-child(3) > div > form > input[type=email]:nth-child(3)", "Markus45@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791882090' status='passed' stop='1675791885148'>
+                            <name>I click "Signup"</name>
+                            <title>I click "Signup"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675791885148' status='passed' stop='1675791885984'>
+                    <name>create_user_page: fillFieldsCreateNewAccount "Olen", "Prosacco"</name>
+                    <title>create_user_page: fillFieldsCreateNewAccount "Olen", "Prosacco"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675791885148' status='passed' stop='1675791885204'>
+                            <name>I check option "#id_gender1"</name>
+                            <title>I check option "#id_gender1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885204' status='passed' stop='1675791885307'>
+                            <name>I fill field "#name", "Olen"</name>
+                            <title>I fill field "#name", "Olen"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885307' status='passed' stop='1675791885377'>
+                            <name>I fill field "#password", *****</name>
+                            <title>I fill field "#password", *****</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885377' status='passed' stop='1675791885419'>
+                            <name>I select option "#days", "14"</name>
+                            <title>I select option "#days", "14"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885419' status='passed' stop='1675791885457'>
+                            <name>I select option "#months", "June"</name>
+                            <title>I select option "#months", "June"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885458' status='passed' stop='1675791885494'>
+                            <name>I select option "#years", "1991"</name>
+                            <title>I select option "#years", "1991"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885494' status='passed' stop='1675791885550'>
+                            <name>I fill field "#first_name", "Olen"</name>
+                            <title>I fill field "#first_name", "Olen"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885550' status='passed' stop='1675791885614'>
+                            <name>I fill field "#last_name", "Prosacco"</name>
+                            <title>I fill field "#last_name", "Prosacco"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885615' status='passed' stop='1675791885685'>
+                            <name>I fill field "#address1", "broadway st"</name>
+                            <title>I fill field "#address1", "broadway st"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885686' status='passed' stop='1675791885724'>
+                            <name>I select option "#country", "United States"</name>
+                            <title>I select option "#country", "United States"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885724' status='passed' stop='1675791885783'>
+                            <name>I fill field "#state", "New York"</name>
+                            <title>I fill field "#state", "New York"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885783' status='passed' stop='1675791885845'>
+                            <name>I fill field "#city", "New York"</name>
+                            <title>I fill field "#city", "New York"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885845' status='passed' stop='1675791885911'>
+                            <name>I fill field "#zipcode", "10014"</name>
+                            <title>I fill field "#zipcode", "10014"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791885911' status='passed' stop='1675791885984'>
+                            <name>I fill field "#mobile_number", "646-55669988"</name>
+                            <title>I fill field "#mobile_number", "646-55669988"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675791885984' status='passed' stop='1675791894679'>
+                    <name>create_user_page: createUser </name>
+                    <title>create_user_page: createUser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675791885984' status='passed' stop='1675791888245'>
+                            <name>I click "Create Account"</name>
+                            <title>I click "Create Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791888246' status='passed' stop='1675791888278'>
+                            <name>I see "Congratulations! Your new account has been successfully created!"</name>
+                            <title>I see "Congratulations! Your new account has been successfully created!"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1675791888278' status='passed' stop='1675791894679'>
+                            <name>I click "Continue"</name>
+                            <title>I click "Continue"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675791894679' status='passed' stop='1675791894804'>
+                    <name>my_account_page: validateUserLogged </name>
+                    <title>my_account_page: validateUserLogged </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675791894679' status='passed' stop='1675791894804'>
+                            <name>I see "Logged in as "</name>
+                            <title>I see "Logged in as "</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,257 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675792279052' stop='1675792311971'>
+    <name>Create User:</name>
+    <title>Create User:</title>
+    <test-cases>
+        <test-case start='1675792283390' status='failed' stop='1675792284762'>
+            <name>Login with success</name>
+            <title>Login with success</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>login is not a function</message>
+                <stack-trace>TypeError: login is not a function
+                    at Test.&lt;anonymous> (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\steps\create_user_test.js:9:11)
+                    at test.fn (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runnable.js:386:21)
+                    at Runnable.run (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runnable.js:330:7)
+                    at Runner.runTest (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:621:10)
+                    at D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:745:12
+                    at next (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:538:14)
+                    at D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:548:7
+                    at next (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:430:14)
+                    at cbHookRun (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\mocha\lib\runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675792284795' status='passed' stop='1675792311938'>
+            <name>Create New User</name>
+            <title>Create New User</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675792286357' status='passed' stop='1675792290750'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='8edb785c-c18e-4cb3-8580-9f888ba0ef80-attachment.png' type='image/png' size='286805'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675792290751' status='passed' stop='1675792293347'>
+                    <name>home_page: accessLoginPage </name>
+                    <title>home_page: accessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675792290751' status='passed' stop='1675792293347'>
+                            <name>I click "Signup / Login"</name>
+                            <title>I click "Signup / Login"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Signup / Login"' source='7bbf9cbe-f2be-4c28-8c35-1255028481c8-attachment.png' type='image/png' size='38702'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675792293347' status='passed' stop='1675792297892'>
+                    <name>login_page: submitCreateNewAccount "Rudy", "Winona_Ritchie91@gmail.com"</name>
+                    <title>login_page: submitCreateNewAccount "Rudy", "Winona_Ritchie91@gmail.com"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675792293347' status='passed' stop='1675792293752'>
+                            <name>I fill field "Name", "Rudy"</name>
+                            <title>I fill field "Name", "Rudy"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "Name", "Rudy"' source='350f7574-b2b0-4198-bf99-932001ace175-attachment.png' type='image/png' size='38901'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792293752' status='passed' stop='1675792294129'>
+                            <name>I fill field "#form > div > div > div:nth-child(3) > div > form > input[type=email]:nth-child(3)", "Winona_Ritchie91@gmail.com"</name>
+                            <title>I fill field "#form > div > div > div:nth-child(3) > div > form > input[type=email]:nth-child(3)", "Winona_Ritchie91@gmail.com"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#form > div > div > div:nth-child(3) > div > form > input[type=email]:nth-child(3)", "Winona_Ritchie91@gmail.com"' source='436243ea-f6f1-45bd-af83-049bb9388372-attachment.png' type='image/png' size='40451'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792294129' status='passed' stop='1675792297891'>
+                            <name>I click "Signup"</name>
+                            <title>I click "Signup"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Signup"' source='aa379080-1258-4b98-afb1-ba10d73e3929-attachment.png' type='image/png' size='44218'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675792297892' status='passed' stop='1675792303607'>
+                    <name>create_user_page: fillFieldsCreateNewAccount "Rudy", "O'Kon"</name>
+                    <title>create_user_page: fillFieldsCreateNewAccount "Rudy", "O'Kon"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675792297892' status='passed' stop='1675792298252'>
+                            <name>I check option "#id_gender1"</name>
+                            <title>I check option "#id_gender1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I check option "#id_gender1"' source='784f5b41-4d42-4d52-98a6-1385c4154a7f-attachment.png' type='image/png' size='44765'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792298252' status='passed' stop='1675792298662'>
+                            <name>I fill field "#name", "Rudy"</name>
+                            <title>I fill field "#name", "Rudy"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#name", "Rudy"' source='34a52333-26da-401a-b93c-89bbe130bca4-attachment.png' type='image/png' size='45958'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792298662' status='passed' stop='1675792299023'>
+                            <name>I fill field "#password", *****</name>
+                            <title>I fill field "#password", *****</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#password", *****' source='d524b851-06a3-4e21-b178-58e453cf4c75-attachment.png' type='image/png' size='46170'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792299023' status='passed' stop='1675792299400'>
+                            <name>I select option "#days", "14"</name>
+                            <title>I select option "#days", "14"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "#days", "14"' source='9e6e2ab6-913e-45df-8bdf-04001331ff63-attachment.png' type='image/png' size='46200'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792299400' status='passed' stop='1675792299801'>
+                            <name>I select option "#months", "June"</name>
+                            <title>I select option "#months", "June"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "#months", "June"' source='de99a006-8aa0-42cf-9e5f-69d2d1693df7-attachment.png' type='image/png' size='45977'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792299801' status='passed' stop='1675792300199'>
+                            <name>I select option "#years", "1991"</name>
+                            <title>I select option "#years", "1991"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "#years", "1991"' source='edc055a6-600d-48dd-b4d4-9638f79355ea-attachment.png' type='image/png' size='46296'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792300199' status='passed' stop='1675792300581'>
+                            <name>I fill field "#first_name", "Rudy"</name>
+                            <title>I fill field "#first_name", "Rudy"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#first_name", "Rudy"' source='3888baba-9bc6-4406-80f1-493699125409-attachment.png' type='image/png' size='46746'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792300581' status='passed' stop='1675792300962'>
+                            <name>I fill field "#last_name", "O'Kon"</name>
+                            <title>I fill field "#last_name", "O'Kon"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#last_name", "O&apos;Kon"' source='800d84ea-f4cc-4c20-bc42-88d5681bb31e-attachment.png' type='image/png' size='34785'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792300962' status='passed' stop='1675792301359'>
+                            <name>I fill field "#address1", "broadway st"</name>
+                            <title>I fill field "#address1", "broadway st"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#address1", "broadway st"' source='2a2ebb34-6038-4a77-9700-6655887e6927-attachment.png' type='image/png' size='36182'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792301359' status='passed' stop='1675792301772'>
+                            <name>I select option "#country", "United States"</name>
+                            <title>I select option "#country", "United States"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "#country", "United States"' source='8373bfaa-1dd7-4fc9-b1dd-86deb523e921-attachment.png' type='image/png' size='36984'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792301772' status='passed' stop='1675792302338'>
+                            <name>I fill field "#state", "New York"</name>
+                            <title>I fill field "#state", "New York"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#state", "New York"' source='46567026-f261-4bb3-aa5f-01fdef83ca31-attachment.png' type='image/png' size='37937'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792302338' status='passed' stop='1675792302780'>
+                            <name>I fill field "#city", "New York"</name>
+                            <title>I fill field "#city", "New York"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#city", "New York"' source='e14a6633-e551-4c52-bd8b-ce67b4f90780-attachment.png' type='image/png' size='66287'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792302780' status='passed' stop='1675792303171'>
+                            <name>I fill field "#zipcode", "10014"</name>
+                            <title>I fill field "#zipcode", "10014"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#zipcode", "10014"' source='a913456d-4d5e-442c-814c-b3e90d0aa93d-attachment.png' type='image/png' size='66919'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792303171' status='passed' stop='1675792303607'>
+                            <name>I fill field "#mobile_number", "646-55669988"</name>
+                            <title>I fill field "#mobile_number", "646-55669988"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#mobile_number", "646-55669988"' source='7a1f0508-d04f-4ca2-98e9-732db47a20fa-attachment.png' type='image/png' size='68318'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675792303607' status='passed' stop='1675792311467'>
+                    <name>create_user_page: createUser </name>
+                    <title>create_user_page: createUser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675792303607' status='passed' stop='1675792306317'>
+                            <name>I click "Create Account"</name>
+                            <title>I click "Create Account"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Create Account"' source='675c7ff2-9f2f-49bb-9b09-57894fc7013e-attachment.png' type='image/png' size='39580'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792306317' status='passed' stop='1675792306654'>
+                            <name>I see "Congratulations! Your new account has been successfully created!"</name>
+                            <title>I see "Congratulations! Your new account has been successfully created!"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Congratulations! Your new account has been successfully created!"' source='f07159ba-fec7-4e1c-ae9f-09bf52058f66-attachment.png' type='image/png' size='39580'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675792306654' status='passed' stop='1675792311467'>
+                            <name>I click "Continue"</name>
+                            <title>I click "Continue"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Continue"' source='1b7f9ec8-5e30-4e47-b45c-a61c459753a6-attachment.png' type='image/png' size='287003'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675792311467' status='passed' stop='1675792311938'>
+                    <name>my_account_page: validateUserLogged </name>
+                    <title>my_account_page: validateUserLogged </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675792311467' status='passed' stop='1675792311937'>
+                            <name>I see "Logged in as "</name>
+                            <title>I see "Logged in as "</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Logged in as "' source='f0c44d99-6a36-47e7-a7a0-44ae7cb7baf6-attachment.png' type='image/png' size='287003'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

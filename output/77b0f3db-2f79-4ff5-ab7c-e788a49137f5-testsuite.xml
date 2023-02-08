@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675871922946' stop='1675871947875'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1675871927484' status='passed' stop='1675871936166'>
+            <name>Validate Empty E-mail On Create Account</name>
+            <title>Validate Empty E-mail On Create Account</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675871928863' status='passed' stop='1675871934053'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='feb799b5-03a2-4958-9771-4eae5bc6e647-attachment.png' type='image/png' size='142412'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871934055' status='passed' stop='1675871934677'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='5b07c8e0-8292-4b05-82b9-dddf9f48cb5d-attachment.png' type='image/png' size='17786'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871934677' status='passed' stop='1675871935038'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Login"' source='80f51ba8-4cb1-4cd7-ae61-baee024abb81-attachment.png' type='image/png' size='15744'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871935038' status='passed' stop='1675871935383'>
+                    <name>I wait for element "#btnLogin"</name>
+                    <title>I wait for element "#btnLogin"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait for element "#btnLogin"' source='e4a7f476-2fce-459b-904b-c73245f52dcf-attachment.png' type='image/png' size='55716'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871935383' status='passed' stop='1675871935743'>
+                    <name>I click "#btnLogin"</name>
+                    <title>I click "#btnLogin"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "#btnLogin"' source='d53629e5-2c22-4f4b-bf52-c8cde483a065-attachment.png' type='image/png' size='57220'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871935743' status='passed' stop='1675871936166'>
+                    <name>I see "E-mail inválido"</name>
+                    <title>I see "E-mail inválido"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "E-mail inválido"' source='eed42b9e-28ba-4f86-8ef2-0fe7e2bc314c-attachment.png' type='image/png' size='57220'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675871936196' status='passed' stop='1675871939984'>
+            <name>Validate Empty E-mail On Create Account 2</name>
+            <title>Validate Empty E-mail On Create Account 2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675871937764' status='passed' stop='1675871939075'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='81da3ec3-1a7a-435f-bdc2-c0c09f9b2ea3-attachment.png' type='image/png' size='64031'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871939076' status='passed' stop='1675871939617'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='f7433ce5-b9a6-477c-9e83-af2f4b38ee9e-attachment.png' type='image/png' size='17786'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871939617' status='passed' stop='1675871939984'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Login"' source='b4759e8d-d564-4e45-be45-33804e17e1ba-attachment.png' type='image/png' size='15744'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675871940013' status='passed' stop='1675871947849'>
+            <name>Validate Empty E-mail On Create Account 3</name>
+            <title>Validate Empty E-mail On Create Account 3</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675871941568' status='passed' stop='1675871947041'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='d94b6ff6-6722-4838-bcd9-7149c60c8398-attachment.png' type='image/png' size='142412'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871947042' status='passed' stop='1675871947475'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='5dec873a-3ae3-4847-9251-a43f80159d2f-attachment.png' type='image/png' size='17786'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871947475' status='passed' stop='1675871947849'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Login"' source='0a11adb8-1a2f-4fb1-a35f-dd93e6dc65e2-attachment.png' type='image/png' size='15744'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

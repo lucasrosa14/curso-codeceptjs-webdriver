@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675871533717' stop='1675871541001'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1675871540980' status='failed' stop='1675871541000'>
+            <name>BeforeSuite of suite login: failed.</name>
+            <title>BeforeSuite of suite login: failed.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>EBUSY: resource busy or locked, open 'D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\selenium-standalone\.selenium\chromedriver\latest-x64-chromedriver'</message>
+                <stack-trace>Error: EBUSY: resource busy or locked, open 'D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\selenium-standalone\.selenium\chromedriver\latest-x64-chromedriver'</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

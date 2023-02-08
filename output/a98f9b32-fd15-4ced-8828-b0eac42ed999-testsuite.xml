@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675871764759' stop='1675871790037'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1675871769399' status='failed' stop='1675871773707'>
+            <name>Validate Empty E-mail On Create Account</name>
+            <title>Validate Empty E-mail On Create Account</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675871770754' status='passed' stop='1675871771926'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='28a8b700-98f8-416f-8a90-b0f474d30744-attachment.png' type='image/png' size='74632'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871771928' status='passed' stop='1675871772572'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='30fb07f1-ea48-4078-bc47-bf9ec9252758-attachment.png' type='image/png' size='17786'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871772573' status='passed' stop='1675871772928'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Login"' source='1fc4277f-0937-490f-8588-868f43ee69ad-attachment.png' type='image/png' size='15744'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675871772928' status='failed' stop='1675871773706'>
+                    <name>I click "#btnLogin"</name>
+                    <title>I click "#btnLogin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Clickable element "#btnLogin" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "#btnLogin" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\helper\WebDriver.js:2836:11)
+                    at WebDriver.click (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\helper\WebDriver.js:926:7)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675871773737' status='passed' stop='1675871782576'>
+            <name>Validate Empty E-mail On Create Account 2</name>
+            <title>Validate Empty E-mail On Create Account 2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675871776803' status='passed' stop='1675871782048'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675871782050' status='passed' stop='1675871782318'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675871782318' status='passed' stop='1675871782575'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675871782604' status='passed' stop='1675871790008'>
+            <name>Validate Empty E-mail On Create Account 3</name>
+            <title>Validate Empty E-mail On Create Account 3</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675871784173' status='passed' stop='1675871789477'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675871789478' status='passed' stop='1675871789723'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675871789723' status='passed' stop='1675871790008'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
