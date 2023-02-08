@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675875608544' stop='1675875627936'>
+    <name>Upload File:</name>
+    <title>Upload File:</title>
+    <test-cases>
+        <test-case start='1675875613219' status='passed' stop='1675875627930'>
+            <name>Fazer upload de imagem</name>
+            <title>Fazer upload de imagem</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675875614609' status='passed' stop='1675875619992'>
+                    <name>I am on page "/contact_us"</name>
+                    <title>I am on page "/contact_us"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/contact_us"' source='d9a38dc1-2307-4969-a899-bb126581bd35-attachment.png' type='image/png' size='64926'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
