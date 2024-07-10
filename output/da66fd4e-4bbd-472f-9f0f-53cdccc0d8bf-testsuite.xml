@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675876264966' stop='1675876280975'>
+    <name>Upload File:</name>
+    <title>Upload File:</title>
+    <test-cases>
+        <test-case start='1675876270016' status='passed' stop='1675876280938'>
+            <name>Fazer upload de imagem</name>
+            <title>Fazer upload de imagem</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675876271415' status='passed' stop='1675876278261'>
+                    <name>I am on page "/contact_us"</name>
+                    <title>I am on page "/contact_us"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/contact_us"' source='8bedd043-e823-4ecd-9848-77f4b0cf27c7-attachment.png' type='image/png' size='71465'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876278262' status='passed' stop='1675876278742'>
+                    <name>I fill field "name", "Lucas Rosa"</name>
+                    <title>I fill field "name", "Lucas Rosa"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "name", "Lucas Rosa"' source='476bc5f2-e173-479a-aea7-d4a7f65430e7-attachment.png' type='image/png' size='72122'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876278743' status='passed' stop='1675876279131'>
+                    <name>I fill field "email", "lucas.trier91@gmail.com"</name>
+                    <title>I fill field "email", "lucas.trier91@gmail.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "lucas.trier91@gmail.com"' source='36599a4b-af81-4b72-be49-18ac30154ba0-attachment.png' type='image/png' size='73131'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876279131' status='passed' stop='1675876279555'>
+                    <name>I fill field "subject", "Teste de upload"</name>
+                    <title>I fill field "subject", "Teste de upload"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "subject", "Teste de upload"' source='f9d9644d-6173-458c-a87c-13eaef22dc1a-attachment.png' type='image/png' size='73413'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876279556' status='passed' stop='1675876279994'>
+                    <name>I fill field "#message", "Teste de upload de arquivo com codeceptjs"</name>
+                    <title>I fill field "#message", "Teste de upload de arquivo com codeceptjs"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "#message", "Teste de upload de arquivo com codeceptjs"' source='28a2f317-8e74-433a-95c6-bbb9ea65710b-attachment.png' type='image/png' size='73865'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876279994' status='passed' stop='1675876280502'>
+                    <name>I attach file "upload_file", "images/teste.jpg"</name>
+                    <title>I attach file "upload_file", "images/teste.jpg"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I attach file "upload_file", "images/teste.jpg"' source='246044cb-e615-44ce-91dc-d4c340f3b01c-attachment.png' type='image/png' size='72827'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876280502' status='passed' stop='1675876280937'>
+                    <name>I click "submit"</name>
+                    <title>I click "submit"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "submit"' source='9b1e5cf0-b82a-4e8b-887e-9487d0096bf6-attachment.png' type='image/png' size='73007'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

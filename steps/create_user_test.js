@@ -5,9 +5,9 @@ const {I, home_page, login_page, create_user_page, my_account_page, login} = inj
 
 Feature('Create User');
 
-Scenario('Login with success', async () => {
-    await login('user')
-})
+// Scenario('Login with success', async () => {
+//     await login('user')
+// })
 
 Scenario('Create New User',  () => {
 

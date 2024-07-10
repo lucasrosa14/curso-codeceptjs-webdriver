@@ -17,12 +17,14 @@ const server = require('./server/server.js')
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   name: 'Codeceptjs_Webdriver',
-  tests: './steps/login_test.js',
+  //tests: './steps/create_user_test.js',
+  //tests: './steps/login_test.js',
+  tests: './steps/upload_test.js',
   output: './output',
   helpers: {
     WebDriver: {
-     // url: 'https://automationexercise.com/',
-      url: 'http://automationpratice.com.br/',
+      url: 'https://automationexercise.com/',
+     // url: 'http://automationpratice.com.br/',  //usado para o teste de login
       browser: 'chrome',
       waitForTimeout: 5000
     }

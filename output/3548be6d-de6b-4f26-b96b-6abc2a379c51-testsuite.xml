@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675876228640' stop='1675876243000'>
+    <name>Upload File:</name>
+    <title>Upload File:</title>
+    <test-cases>
+        <test-case start='1675876232992' status='failed' stop='1675876242963'>
+            <name>Fazer upload de imagem</name>
+            <title>Fazer upload de imagem</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1675876234368' status='passed' stop='1675876240584'>
+                    <name>I am on page "/contact_us"</name>
+                    <title>I am on page "/contact_us"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/contact_us"' source='3c20af3a-4542-4e22-851d-c1f048ce6e31-attachment.png' type='image/png' size='64926'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876240584' status='passed' stop='1675876241023'>
+                    <name>I fill field "name", "Lucas Rosa"</name>
+                    <title>I fill field "name", "Lucas Rosa"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "name", "Lucas Rosa"' source='6129bf04-9c57-4b49-871e-84bcff79c967-attachment.png' type='image/png' size='65185'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876241023' status='passed' stop='1675876241425'>
+                    <name>I fill field "email", "lucas.trier91@gmail.com"</name>
+                    <title>I fill field "email", "lucas.trier91@gmail.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "lucas.trier91@gmail.com"' source='9be288dc-21c1-4260-91e6-304b0af1d61b-attachment.png' type='image/png' size='66596'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876241425' status='passed' stop='1675876241802'>
+                    <name>I fill field "subject", "Teste de upload"</name>
+                    <title>I fill field "subject", "Teste de upload"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "subject", "Teste de upload"' source='fa48358f-7658-4b1d-986f-b3c51fd8ec34-attachment.png' type='image/png' size='67388'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876241802' status='passed' stop='1675876242224'>
+                    <name>I fill field "#message", "Teste de upload de arquivo com codeceptjs"</name>
+                    <title>I fill field "#message", "Teste de upload de arquivo com codeceptjs"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "#message", "Teste de upload de arquivo com codeceptjs"' source='accaa326-094a-4151-a6a8-c0e84bf3de7c-attachment.png' type='image/png' size='67355'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675876242224' status='failed' stop='1675876242963'>
+                    <name>I attach file "upload_file", "images	este.jpg"</name>
+                    <title>I attach file "upload_file", "images	este.jpg"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>File at D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\images	este.jpg can not be found on local system</message>
+                <stack-trace>Error: File at D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\images	este.jpg can not be found on local system
+                    at WebDriver.attachFile (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\helper\WebDriver.js:1103:13)
+                    at Step.run (D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\step.js:122:47)
+                    at D:\Pessoal\2023\TrilhaQA\Codeceptjs_Webdriver\node_modules\codeceptjs\lib\actor.js:134:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
